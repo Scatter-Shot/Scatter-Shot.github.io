@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Games Store (Basic)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EPIC GAMES</div>
+
+        <ul class="nav-links desktop-only">
+            <li><a href="#" class="active">Store</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Unreal Engine</a></li>
+        </ul>
+
+        <div class="nav-right">
+            <a href="#" class="btn-download desktop-only">Download</a>
+            <a href="#" class="signin desktop-only">Sign In</a>
+            
+            <label for="menu-toggle" class="hamburger-icon">☰</label>
+        </div>
+    </nav>
+
+    <input type="checkbox" id="menu-toggle">
+    
+    <div class="mobile-menu">
+        <div class="mobile-header">
+            <span>Menu</span>
+            <label for="menu-toggle" class="close-btn">✕</label>
+        </div>
+        <ul class="mobile-links">
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Distribution</a></li>
+            <li><a href="#">Support</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="search-bar">
+            <span>🔍</span>
+            <input type="text" placeholder="Search store">
+        </div>
+
+        <section class="hero">
+            <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/25462828/fortnite_chapter_5_season_3_battle_pass_skins.jpg" alt="Fortnite">
+            <div class="hero-text">
+                <h2>FORTNITE</h2>
+                <p>The new chapter is here. Play for free now.</p>
+                <button class="btn-white">Play For Free</button>
+            </div>
+        </section>
+
+        <section class="section-container">
+            <div class="section-header">
+                <h3>Free Games</h3>
+                <button class="btn-outline">View More</button>
+            </div>
+            
+            <div class="free-games-list">
+                <div class="game-card">
+                    <img src="https://www.techpowerup.com/img/knL2961XGImtIkoh.jpg" alt="Game 1">
+                    <div class="card-info">
+                        <span class="badge-blue">FREE NOW</span>
+                        <h4>Destiny 2</h4>
+                        <p>Free until Dec 20</p>
+                    </div>
+                </div>
+                <div class="game-card">
+                    <img src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/epic-games-mystery-game-returns-december-2024.jpg" alt="Game 2">
+                    <div class="card-info">
+                        <span class="badge-black">COMING SOON</span>
+                        <h4>Mystery Game</h4>
+                        <p>Unlocks next week</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-container">
+            <h3>Top Sellers</h3>
+            <div class="games-grid">
+                <div class="store-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a5/Grand_Theft_Auto_V.png" alt="GTA V">
+                    <p class="game-title">Grand Theft Auto V</p>
+                    <p class="price">₹2,500</p>
+                </div>
+                <div class="store-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/a/a7/Red_Dead_Redemption.jpg" alt="RDR 2">
+                    <p class="game-title">Red Dead Redemption 2</p>
+                    <p class="price">₹3,500</p>
+                </div>
+                <div class="store-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg" alt="Cyberpunk">
+                    <p class="game-title">Cyberpunk 2077</p>
+                    <p class="price">₹5,000</p>
+                </div>
+                <div class="store-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/Witcher_3_cover_art.jpg/250px-Witcher_3_cover_art.jpg" alt="Witcher 3">
+                    <p class="game-title">The Witcher 3</p>
+                    <p class="price">₹3,000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
